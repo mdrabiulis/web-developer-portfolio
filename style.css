@@ -285,10 +285,31 @@ margin: 20px 0px;
 /*  */
 footer{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 120px;
 }
 
 
+.footer-column{
+    width: 50%;
+}
 
+.contact-form input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    width: 60%;
+}
+
+.social-links a{
+    width: 100px;
+    height: 30px;
+    margin-left: 25px;
+}
 
